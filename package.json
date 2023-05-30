@@ -1,6 +1,19 @@
 {
+  "name": "logo-gen",
+  "version": "1.0.0",
+  "description": "A generator that produces a logo for freelance developers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
-    "inquirer": "^9.2.6",
-    "jest": "^29.5.0"
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
   }
 }
